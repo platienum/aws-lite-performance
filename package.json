@@ -21,7 +21,7 @@
   "dependencies": {
     "@architect/architect": "^10.16.3",
     "@architect/eslint-config": "^2.1.2",
-    "@architect/plugin-storage-public": "^1.0.2",
+    "@architect/plugin-storage-private": "^1.0.1",
     "@aws-lite/client": "latest",
     "@aws-lite/dynamodb": "latest",
     "@aws-lite/lambda": "latest",
