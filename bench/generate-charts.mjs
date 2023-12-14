@@ -144,7 +144,7 @@ export default async function generateCharts ({ data, metricToGraph, region, run
   }
 
   const aws = await awsLite({ profile: 'openjsf', region })
-  const { Parameter } = await aws.SSM.GetParameter({ Name: `/Performance${env}/storage-public/assets` })
+  const { Parameter } = await aws.SSM.GetParameter({ Name: `/Performance${env}/storage-private/assets` })
   const Bucket = Parameter.Value
   const CacheControl = 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0'
 
